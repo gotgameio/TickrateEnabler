@@ -81,7 +81,7 @@ jobs:
           
   release:
     name: Release
-    if: github.ref_type == 'tag'
+    #if: github.ref_type == 'tag'
     needs: build
     runs-on: ubuntu-20.04
     steps:
